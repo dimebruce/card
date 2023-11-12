@@ -6,7 +6,7 @@ import JSONData from "./ImageDataset.json";
 function App() {
   const [label, setLabel] = useState("BBVA");
   const [customerName, setcustomerName] = useState("AD-GAR");
-  const [cardNumber, setcardNumber] = useState("4152 6140 5774 0311");
+  const [cardNumber, setcardNumber] = useState("4152 3140 5774 0311");
   const [expiryDate, setexpiryDate] = useState(" ");
 
   return (
