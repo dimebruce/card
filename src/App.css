@@ -1,0 +1,90 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  overflow: hidden;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: black;
+  background-image: url("./Logos/elipse.png");
+  background-size: cover;
+}
+label {
+  color: #fff;
+}
+
+.userInputs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 24px 100px;
+}
+.cardGallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 220px 100px;
+}
+
+input {
+  background-color: #0c162d;
+  color: #00cfc8;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #202637;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+input:focus {
+  outline: 1px solid #f0d;
+}
+::placeholder {
+  color: rgba(168, 167, 255, 0.226);
+}
+
+h1 {
+  margin: 32px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  margin-top: -20px;
+  margin-bottom: 48px;
+  color: rgba(255, 255, 255, 0.247);
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 426px) {
+  .App {
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+    /* background-color: #00cfc8; */
+    padding: 0 36px 0;
+  }
+  .userInputs {
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  input {
+    display: inline-block;
+    width: 250px;
+    padding-left: 20px;
+  }
+}
